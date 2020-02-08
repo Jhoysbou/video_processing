@@ -1,1 +1,1 @@
-Real-time object detection
+Motion detection
