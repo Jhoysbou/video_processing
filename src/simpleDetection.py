@@ -4,18 +4,18 @@ import imutils
 import cv2
 from imutils.video import VideoStream
 
-vs = cv2.VideoCapture('PATH_TO_VIDEO')
+# vs = cv2.VideoCapture("./IMG_4042.MOV")
 # webcam
-# vs = VideoStream(src=0).start()
-# time.sleep(2.0)
+vs = VideoStream(src=0).start()
+time.sleep(2.0)
 
 firstFrame = None
 MIN = 700
 
 while True:
-    frame = vs.read()[1]
+    # frame = vs.read()[1]
     # webcam
-    # frame = vs.read()
+    frame = vs.read()
 
 
     # the end of the video
